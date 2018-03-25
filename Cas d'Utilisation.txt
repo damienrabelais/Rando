@@ -1,0 +1,49 @@
+
+////// VISITEURS-PARTICIPANTS //////
+
+Profil : Visiteur (pas de profil)
+- Créer une équipe (pas de modification possible du nom)
+
+Profil  : Responsable équipe
+- Créer un participant (pour ajout à son équipe)
+- Modificaton participant (mail ... repas pris sur place... )
+- Réinscrire une équipe.
+(D'une manière générale : modifier la composition d'une équipe, repas pris sur place, mail, portable....)
+- Choisir un parcours (modification possible)...
+
+////// VISITEURS-PARTICIPANTS //////
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+////// CONTRIBUTEURS //////
+
+Profil : Inscriptions
+- Validation Equipe (insertion-modification dans 'sinscrire')
+- Relance paiement Equipe (avec reste à payer)
+- Mailing - promo., relance anciens participants (Disctinct sur mail)
+- Affecter EquipeS à vagueS de départ (pour un parcours)  
+Choix d'un parcours-affichage des équipes - nom, nombre de membre : zone texte pour n° vague - a chaque choix vague mise à jour-affichage du nombre de participants total par vague)
+
+
+Profil Organisation : 
+- Créer-modifier un contributeur (bénévole ou/et ApporteurDeSponsors)
+- Affectation-retrait d'un bénévole à une Commission.
+- Créer-modifier un sponsor
+- Mailing remerciement sponsors pour l'année en cours
+- Mailing relance sponsors (toutes années confondues)
+- Affecter EquipeS à vagueS de départ (pour un parcours) (idem Profil Inscriptions)
+
+Profil Super Administrateur (en sus des autres profils) (Hérite de Inscriptions et Organisation)
+- Créer-modifier une course (insertion dans année) (à partir du moment ou la première inscription est faite, plus de possibilité de modifier limiteAge, et tarifs !)
+- Créer-modifier un Administrateur (saisie email, mot de passe généré)
+- Supprimer un droit d'Administrateur (pas suppression contributeur)
+- Mettre une date de cloture inscription (au-dellà de laquelle les responsables ne peuvent plus modifier que leur mail et portable) (!) (!)
+
+Profils : Inscriptions, Organisation, Super Admin. : 
+- Accès au Tableau de bord.
+- Modification de mot de passe (après vérification de l'ancien)
+
+
+Nota Bene : Tables : Parcours, Commission, Local, Categorie : renseignées en dur dans la BDD
+
+Nota Bene : mail organisation course (a passer en session), utilisé pour envoi mailing divers etc... confirmation validation etc...
